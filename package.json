@@ -1,20 +1,20 @@
 {
-  "name": "jessecogollo",
-  "version": "2.0.0",
-  "description": "Tarjeta personal de Jesse Cogollo (@jessecogollo)",
+  "name": "shinkei",
+  "version": "1.0.0",
+  "description": "Shinkei Business Card (@shinkei)",
   "main": "index.js",
   "bin": {
-    "jessecogollo": "./bin/card.js"
+    "shinkei": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/jessecogollo.git"
+    "url": "https://github.com/Shinkei/shinkei"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Jesse Cogollo <cogollo87@gmail.com> (https://jessecogollo.me)",
+  "author": "Jorge Ramirez <ing.jorgeivanramirezh@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",

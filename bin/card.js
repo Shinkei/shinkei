@@ -2,44 +2,44 @@
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
-var chalk = require('chalk')
-var boxen = require('boxen')
+let chalk = require('chalk');
+let boxen = require('boxen');
 
 // Define options for Boxen
-let options = {
+const options = {
   padding: 1,
   margin: 1,
   borderStyle: 'round'
-}
+};
 // Text + chalk definitions
-let data = {
-  'name': chalk.white('Jesse Cogollo /'),
-  'handle': chalk.cyan('@jessecogollo'),
-  'work': chalk.white('Software Developer at Advice Interactive Group'),
-  'twitter': chalk.cyan('https://twitter.com/jessecogollo'),
-  'github': chalk.cyan('https://github.com/jessecogollo'),
-  'linkedin': chalk.cyan('https://linkedin.com/in/jessecogollo'),
-  'web': chalk.cyan('https://jessecogollo.me'),
-  'npx': chalk.white('npx jessecogollo'),
-  'labelWork': chalk.white.bold('      Work:'),
-  'labelTwitter': chalk.white.bold('   Twitter:'),
-  'labelGitHub': chalk.white.bold('    GitHub:'),
-  'labelLinkedIn': chalk.white.bold('  LinkedIn:'),
-  'labelWeb': chalk.white.bold('       Web:'),
-  'labelCard': chalk.white.bold('      Card:')
-}
+const data = {
+  name: chalk.white('Jorge Ramírez /'),
+  handle: chalk.cyan('@shinkei'),
+  work: chalk.white('Senior Javascript Developer'),
+  twitter: chalk.cyan('https://twitter.com/shinkei1'),
+  github: chalk.cyan('https://github.com/shinkei'),
+  linkedin: chalk.cyan('https://www.linkedin.com/in/jorgeivanramirezh/'),
+  web: chalk.cyan('http://shinkei.github.io/'),
+  npx: chalk.white('npx shinkei'),
+  labelWork: chalk.white.bold('      Work:'),
+  labelTwitter: chalk.white.bold('   Twitter:'),
+  labelGitHub: chalk.white.bold('    GitHub:'),
+  labelLinkedIn: chalk.white.bold('  LinkedIn:'),
+  labelWeb: chalk.white.bold('       Web:'),
+  labelCard: chalk.white.bold('      Card:')
+};
 
 // Actual strings we're going to output
-var newline = '\n'
-var heading = `${data.name} ${data.handle}`
-var working = `${data.labelWork}  ${data.work}`
-var twittering = `${data.labelTwitter}  ${data.twitter}`
-var githubing = `${data.labelGitHub}  ${data.github}`
-var linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-var webing = `${data.labelWeb}  ${data.web}`
-var carding = `${data.labelCard}  ${data.npx}`
+let newline = '\n';
+let heading = `${data.name} ${data.handle}`;
+let working = `${data.labelWork}  ${data.work}`;
+let twittering = `${data.labelTwitter}  ${data.twitter}`;
+let githubing = `${data.labelGitHub}  ${data.github}`;
+let linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+let webing = `${data.labelWeb}  ${data.web}`;
+let carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
-let output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding
+const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding;
 
-console.log(chalk.green(boxen(output, options)))
+console.log(chalk.green(boxen(output, options)));
