@@ -1,9 +1,8 @@
-It's me, Tierney!
+Soy yo, @jessecogollo!
 
-# Usage
+# Como usar
 Via npx:
 ```
-npx bitandbang
+npx jessecogollo
 ```
-
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+Este repositori es un fork de [bitandbang](https://github.com/bnb/bitandbang)
