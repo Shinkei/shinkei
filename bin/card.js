@@ -13,14 +13,14 @@ let options = {
 }
 // Text + chalk definitions
 let data = {
-  'name': chalk.white('Tierney Cyren /'),
-  'handle': chalk.cyan('bitandbang'),
-  'work': chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  'twitter': chalk.cyan('https://twitter.com/bitandbang'),
-  'github': chalk.cyan('https://github.com/bnb'),
-  'linkedin': chalk.cyan('https://linkedin.com/in/bitandbang'),
-  'web': chalk.cyan('https://bnb.im'),
-  'npx': chalk.white('npx bitandbang'),
+  'name': chalk.white('Jesse Cogollo /'),
+  'handle': chalk.cyan('jessecogollo'),
+  'work': chalk.white('Software Developer Advice Interactive Group'),
+  'twitter': chalk.cyan('https://twitter.com/jessecogollo'),
+  'github': chalk.cyan('https://github.com/jessecogollo'),
+  'linkedin': chalk.cyan('https://linkedin.com/in/jessecogollo'),
+  'web': chalk.cyan('https://jessecogollo.me'),
+  'npx': chalk.white('npx jessecogollo'),
   'labelWork': chalk.white.bold('      Work:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),

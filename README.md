@@ -5,4 +5,4 @@ Via npx:
 ```
 npx jessecogollo
 ```
-Este repositori es un fork de [bitandbang](https://github.com/bnb/bitandbang)
+Este repositorio es un fork de [bitandbang](https://github.com/bnb/bitandbang)
