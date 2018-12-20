@@ -2,8 +2,8 @@
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
-let chalk = require('chalk');
-let boxen = require('boxen');
+const chalk = require('chalk');
+const boxen = require('boxen');
 
 // Define options for Boxen
 const options = {
@@ -30,14 +30,14 @@ const data = {
 };
 
 // Actual strings we're going to output
-let newline = '\n';
-let heading = `${data.name} ${data.handle}`;
-let working = `${data.labelWork}  ${data.work}`;
-let twittering = `${data.labelTwitter}  ${data.twitter}`;
-let githubing = `${data.labelGitHub}  ${data.github}`;
-let linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
-let webing = `${data.labelWeb}  ${data.web}`;
-let carding = `${data.labelCard}  ${data.npx}`;
+const newline = '\n';
+const heading = `${data.name} ${data.handle}`;
+const working = `${data.labelWork}  ${data.work}`;
+const twittering = `${data.labelTwitter}  ${data.twitter}`;
+const githubing = `${data.labelGitHub}  ${data.github}`;
+const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+const webing = `${data.labelWeb}  ${data.web}`;
+const carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + newline + newline + working + newline + twittering + newline + githubing + newline + linkedining + newline + webing + newline + newline + carding;

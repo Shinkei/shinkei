@@ -1,19 +1,19 @@
-Soy yo, @jessecogollo!
+# Shinkei Business Card!
 
-# Como usar
+## Como usar
 Via npx:
 ```
-npx jessecogollo
+npx shinkei
 ```
-Este repositorio es un fork de [bitandbang](https://github.com/bnb/bitandbang)
+Este repositorio es un fork de [jessecogollo](https://github.com/jessecogollo/jessecogollo)
 
 # Pasos para publicar tu propia tarjeta.
 
-1. haces fork de [este](https://github.com/jessecogollo/jessecogollo) repositorio o el de [bitandbang](https://github.com/bnb/bitandbang)
+1. haces fork de [este](https://github.com/jessecogollo/jessecogollo)
 
 2. Cambias toda la información de la persona del repositorio original por tu información `bin/card.js`.
 
-3. asegurate de cambiar la información del `package.json` especialmente `bin.jessecogollo` por `bin.tuejecutable`
+3. asegurate de cambiar la información del `package.json`
 
 4. guarda cambios y subelos a tu repositorio (opcional)
 
