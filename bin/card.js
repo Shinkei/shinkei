@@ -14,8 +14,8 @@ let options = {
 // Text + chalk definitions
 let data = {
   'name': chalk.white('Jesse Cogollo /'),
-  'handle': chalk.cyan('jessecogollo'),
-  'work': chalk.white('Software Developer Advice Interactive Group'),
+  'handle': chalk.cyan('@jessecogollo'),
+  'work': chalk.white('Software Developer at Advice Interactive Group'),
   'twitter': chalk.cyan('https://twitter.com/jessecogollo'),
   'github': chalk.cyan('https://github.com/jessecogollo'),
   'linkedin': chalk.cyan('https://linkedin.com/in/jessecogollo'),
