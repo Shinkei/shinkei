@@ -4,7 +4,7 @@
   "description": "Tarjeta personal de Jesse Cogollo (@jessecogollo)",
   "main": "index.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "jessecogollo": "./bin/card.js"
   },
   "repository": {
     "type": "git",
