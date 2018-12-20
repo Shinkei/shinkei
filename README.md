@@ -17,7 +17,7 @@ Este repositorio es un fork de [bitandbang](https://github.com/bnb/bitandbang)
 
 4. guarda cambios y subelos a tu repositorio (opcional)
 
-5. ejecutas `npm version mayor`
+5. ejecutas `npm version major`
 
 6. y finalmente ejecutas `npm publish`
 
